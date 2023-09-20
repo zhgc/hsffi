@@ -72,6 +72,8 @@ library
     -- Directories containing source files.
     hs-source-dirs:   src
 
+    c-sources: csrc/cLib.c 
+
     -- Base language which the package is written in.
     default-language: GHC2021
 
